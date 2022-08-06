@@ -1,0 +1,34 @@
+{
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "db",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "db",
+			"database": "app",
+			"username": "postgres",
+			"password": "postgres"
+		},
+		{
+			"previewLimit": 50,
+			"server": "db",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "event",
+			"database": "conduit_eventstore_dev",
+			"username": "postgres",
+			"password": "postgres"
+		},
+		{
+			"previewLimit": 50,
+			"server": "db",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "read",
+			"database": "conduit_readstore_dev",
+			"username": "postgres",
+			"password": "postgres"
+		}
+	]
+}
